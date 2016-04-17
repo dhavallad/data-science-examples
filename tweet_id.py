@@ -2,7 +2,7 @@ __author__ = "Dhaval Lad"
 
 import json
 
-def task7():
+def getTweetId():
     """
     This function reads the CrimeReport file and prints out the id for each tweet.
     :return:
@@ -21,4 +21,4 @@ def task7():
                 print('Tweet id not found.')
 
 if __name__ == '__main__':
-    task7()
+    getTweetId()
